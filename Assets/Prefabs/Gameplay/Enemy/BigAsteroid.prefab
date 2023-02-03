@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 3960405550659097187}
   - component: {fileID: 3525570613109776220}
   - component: {fileID: 298082228084185668}
-  - component: {fileID: 9010188990996721533}
   m_Layer: 0
   m_Name: BigAsteroid
   m_TagString: Enemy
@@ -51,7 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 5
-  _turnSpeed: 300
+  _turnSpeed: 0
   _scores: 10
   _isSpawnObjectsAfterDeath: 1
   _spawnType: 2
@@ -106,18 +105,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2.02
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &9010188990996721533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6362598983993333784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a2c18dcbde0542bb9da8046fab60d1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &3119593438794526859
 PrefabInstance:
   m_ObjectHideFlags: 0
